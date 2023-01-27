@@ -11,12 +11,13 @@ footer {
     background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
     color: white;
     padding: 12px;
+    text-shadow: black 1px 0 10px;
 }
 
 h1,
 h2 {
     text-align: center;
-    padding: 10px;
+    padding: 10px;    
 }
 
 img {
@@ -46,7 +47,7 @@ p {
     margin: 40px auto;
     border: 5px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    border-image-slice: 1;;
+    border-image-slice: 1;
     box-shadow: 5px 10px lightgrey;
   }
   
