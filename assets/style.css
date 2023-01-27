@@ -62,3 +62,11 @@ p {
   tr:nth-child(even){
     background-color: lightblue;
   }
+
+  code {
+    display: block;
+    font: 0.5em monospace;
+    padding: 10px;
+    background-color: beige;
+    max-width: 100%;
+  }

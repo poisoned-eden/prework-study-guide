@@ -21,6 +21,11 @@
           <li>The body element represents the visible content shown to the user.</li>
           <li>HTML = Hyper Text Markup Language</li>
           <li>Elements such as head, body, section, h1, can have attributes that further define the element.</li>
+          <li>pre tag tells browser to display whitespace. useful when displaying code.</li>
+          <li>code tag semantically labels as code, but will still interpret it.  Use below to edit the triangle brackets so it doesnt.</li>
+          <li>&lt; less than & lt ;</li>
+          <li>&gt; greater than & gt ; </li>
+          <li>&amp; ampersand & amp ;  </li>
           <li>Potatoes</li>
         </ul>
         <img src="./assets/potatoes-sam.gif" alt="A gif of Sam Gamgee from LOTR enunciating the word Potatoes. PO-TAY-TOES is written over the image." />
@@ -28,16 +33,17 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>blurry text-shadow: #fc0 1px 0 10px; color | offset-x | offset-y | blur-radius</li>
-          <li>rainbow background = background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);</li>
-          <li>rainbow border = border: 5px solid transparent;
-            border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-            border-image-slice: 1;</li>
-          <li>to make element fit within container = max-width: 100%;</li>
-          <li>to alternate background of table rows = tr:nth-child(even){
-            background-color: lightblue;
-          }
+          <li>blurry text-shadow <code>text-shadow: #fc0 1px 0 10px; color | offset-x | offset-y | blur-radius</code></li>
+          <li>rainbow background <code>background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red); </code></li>
+          <li>rainbow border
+            <pre><code>border: 5px solid transparent;
+border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+border-image-slice: 1;</code></pre>
           </li>
+          <li>to make element fit within container<code>max-width: 100%;</code></li>
+          <li>to alternate background of table rows<pre><code>tr:nth-child(even){ 
+  background-color: lightblue; 
+} </code></pre></li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -109,7 +115,14 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li></li>
+          <li>link to script at bottom of html, just before close of body tag. e.g. <pre><code>
+  &lt;/footer&gt;
+  &lt;script src="./assets/script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</code></pre></li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Need to declare a variable or function before you refer to it.</li>
+          <li>console.log('displays result in the console in browser dev tools')</li>
         </ul>
       </section>
     </main>
